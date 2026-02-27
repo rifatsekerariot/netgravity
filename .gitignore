@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+# We want to keep the final EXE in dist, so we'll explicitly add it later or exclude dist/ except for the exe.
+# For now, let's keep dist/ in .gitignore but force-add the exe
+dist/
+!dist/main.exe
+frontend/dist/
+
+# Env
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite Database (Do not push user data/passwords)
+*.db
+*.sqlite3
+secret.key
+
+# Frontend Node modules
+frontend/node_modules/
